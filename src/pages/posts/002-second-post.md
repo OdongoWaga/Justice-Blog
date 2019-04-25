@@ -5,7 +5,6 @@ author: 'Jane Doe'
 image: ../../images/javascript.jpg
 tags:
   - Lefty
-  - Sinister
 ---
 
 Left handed people are evil.
