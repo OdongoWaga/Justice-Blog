@@ -29,7 +29,7 @@ const tagPosts = ({ data, pageContext }) => {
 }
 
 export const tagQuery = graphql`
-  query($tag: String!) {
+  query($tag: String) {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { tags: { in: [$tag] } } }
